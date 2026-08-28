@@ -13,7 +13,7 @@ export PATH="/home/dsm/.local/share/pnpm/bin:$PATH"
 export PATH="/persistent/home/dsm/@dsm/software/node-v22.23.2-linux-x64/bin:$PATH"
 
 # 3. 切换目录
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$SCRIPT_DIR"
 
 echo "📂 工作目录已锁定在: $SCRIPT_DIR"
